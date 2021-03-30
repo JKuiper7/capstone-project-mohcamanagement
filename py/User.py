@@ -45,9 +45,4 @@ class User:
 				print(endTime)
 
 	def calculateUserWeight(self):
-		print("Implement function to calculate weight")
-
-		
-
-		calculatedWeight = 0
-		self.setUserWEgith(calculatedWeight)
+		self.setUserWeight(self.totalHours - self.hoursLeft)
